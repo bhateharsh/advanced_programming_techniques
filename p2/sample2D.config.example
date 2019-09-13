@@ -1,0 +1,19 @@
+##### 2D CONFIGURATION EXAMPLE #####
+#your code should ignore lines starting with ’#’
+#you can assume arguments will always follow this ordering however whitespace may vary
+#2D or 3D
+2D
+#the value for k
+.01
+#number of timestep to run
+200
+#width (x-axis) and height (y-axis) of grid
+10,10
+#default starting temperature for nodes
+5
+#list of fixed temperature blocks (squares for 2D)
+#can be 0, 1 or more
+#assume blocks won’t overlap
+#location_x, location_y, width, height, fixed temperature
+1, 1, 1, 1, 200
+5, 6, 2, 3, 300
